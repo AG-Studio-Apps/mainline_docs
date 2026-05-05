@@ -9,7 +9,7 @@ permalink: /manual/submission/
 <div class="page-header">
   <div class="page-header__eyebrow">User Manual</div>
   <h1>Submission</h1>
-  <p>Submit for review, control phased rollouts, and respond to rejections — without opening a browser.</p>
+  <p>Submit for review, control phased rollouts, and respond to rejections — all from your iPhone.</p>
 </div>
 
 <!-- SCREENSHOT: submission-section -->
