@@ -82,14 +82,11 @@ When replying to a customer review, tap **Suggest Reply**. Mainline sends the re
 
 ## Architecture Planning Wizard
 
-For new apps, the **Architecture Planning Wizard** is an AI-assisted planning tool. It asks you questions about your app's purpose, target users, key features, and technical requirements, then generates a structured technical plan covering:
+For new apps, the **Architecture Planning Wizard** is an AI-assisted version of the New App flow. You feed it a short description of the app you want to build, and the AI proposes a multi-bundle architecture: the main app's bundle ID, any widget or extension bundle IDs, suggested App Groups, and the ASC capabilities each bundle should declare. It also asks clarifying questions when the brief is ambiguous.
 
-- Data model recommendations
-- Sync and persistence strategy
-- Monetisation approach
-- Key technical considerations
+You review the proposed plan in an editable form before accepting. On Accept, Mainline creates the bundle IDs in App Store Connect and enables the chosen capabilities for each. The plan itself isn't persisted afterwards — what lives on is the resulting set of bundles and capabilities in your ASC team.
 
-Plans are stored locally on your device. Nothing is sent to ASC or GitHub. The wizard is available from the Dashboard toolbar menu.
+The wizard is available from the Dashboard's New App menu.
 
 ---
 

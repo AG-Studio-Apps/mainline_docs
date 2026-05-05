@@ -1,7 +1,7 @@
 title: "Mainline"
 description: "Manage your App Store Connect apps from your iPhone."
-baseurl: "/mainline_docs"
-url: "https://ag-studio-apps.github.io"
+baseurl: ""
+url: "https://mainline.agnticstudio.com"
 
 # Build settings
 theme: null
@@ -11,13 +11,13 @@ plugins:
 # Navigation
 nav_links:
   - title: Onboarding
-    url: /mainline_docs/onboarding/
+    url: /onboarding/
   - title: User Manual
-    url: /mainline_docs/manual/
+    url: /manual/
   - title: EULA
-    url: /mainline_docs/eula/
+    url: /eula/
   - title: Privacy
-    url: /mainline_docs/privacy/
+    url: /privacy/
 
 # Collections
 collections:

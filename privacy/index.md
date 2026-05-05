@@ -58,19 +58,21 @@ The iOS Keychain is a secure, encrypted store managed by the operating system. A
 
 ---
 
-## 3. iCloud: one record per user
+## 3. iCloud: one record per ASC team
 
-Mainline uses Apple's iCloud (CloudKit) for a single, narrow purpose: **enforcing the free tier's one-app-pinned constraint across device reinstalls**.
+Mainline uses Apple's iCloud (CloudKit) for a single, narrow purpose: **enforcing the free tier's one-app-pinned constraint across device reinstalls and across the devices of the same ASC team**.
 
-When you pin an app on the free tier, Mainline writes one record to your private iCloud database. This record contains:
+When you pin an app on the free tier, Mainline writes one record to Mainline's CloudKit container, accessed under your iCloud authentication. The record's identifier is a SHA-256 hash of your ASC Issuer ID — your raw Issuer ID is never stored in CloudKit. The record contains:
 
-- A **hashed identifier** derived from your ASC Issuer ID (not the Issuer ID itself)
 - The **bundle ID** of your pinned app
-- A **timestamp** of when you last pinned
+- A **timestamp** of when you originally pinned
+- A **timestamp** of your most recent re-pin (drives the 90-day cooldown)
 
-The record does **not** contain your name, email address, Apple ID, or any other personal identifier. It is stored under your own iCloud account — AG Studio Apps cannot read it. Its sole purpose is to prevent the free tier from being reset by an app reinstall.
+The record does **not** contain your name, email address, Apple ID, ASC Issuer ID, or any other personal identifier — only the bundle ID of the app you've chosen to manage on free, plus the two timestamps.
 
-If you delete the App, this record remains in your iCloud account until iCloud cleans it up. You can delete it manually via **Settings → iCloud → Manage Storage → Mainline** on your device.
+A copy of the same record is also stored in your iOS Keychain with iCloud Keychain sync enabled, as a fallback when CloudKit is unavailable. iCloud Keychain is end-to-end encrypted by Apple between the devices signed in with your Apple ID.
+
+If you delete the App, the record remains in CloudKit until you manually clear it. You can do so via **Settings → Apple ID → iCloud → Manage Account Storage → Mainline** on your device, or by upgrading to Pro (which retires the free-tier record).
 
 ---
 
