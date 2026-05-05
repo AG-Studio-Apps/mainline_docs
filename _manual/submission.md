@@ -3,7 +3,7 @@ layout: manual
 title: "Submission"
 description: "Submit your app for review, manage phased release, and handle rejections — all from Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/submission/
+permalink: /manual/submission/
 ---
 
 <div class="page-header">

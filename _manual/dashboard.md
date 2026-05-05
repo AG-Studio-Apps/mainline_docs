@@ -3,7 +3,7 @@ layout: manual
 title: "Dashboard"
 description: "An overview of the Mainline dashboard — your apps, signing health, and quick-action cards."
 breadcrumb: true
-permalink: /mainline_docs/manual/dashboard/
+permalink: /manual/dashboard/
 ---
 
 <div class="page-header">

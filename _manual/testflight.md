@@ -3,7 +3,7 @@ layout: manual
 title: "TestFlight Builds"
 description: "View your TestFlight builds, edit What to Test notes, and schedule releases in Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/testflight/
+permalink: /manual/testflight/
 ---
 
 <div class="page-header">

@@ -3,7 +3,7 @@ layout: manual
 title: "In-App Purchases & Subscriptions"
 description: "Create and manage in-app purchases and auto-renewable subscriptions in Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/iap-subscriptions/
+permalink: /manual/iap-subscriptions/
 ---
 
 <div class="page-header">

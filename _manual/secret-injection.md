@@ -3,7 +3,7 @@ layout: manual
 title: "Secret Injection for CI"
 description: "How Mainline writes code-signing secrets to GitHub Actions so your CI pipeline can build and sign."
 breadcrumb: true
-permalink: /mainline_docs/manual/secret-injection/
+permalink: /manual/secret-injection/
 ---
 
 <div class="page-header">

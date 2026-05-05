@@ -3,7 +3,7 @@ layout: manual
 title: "Pricing & Availability"
 description: "Set your app's base price, manage territory overrides, and control which storefronts it's available in."
 breadcrumb: true
-permalink: /mainline_docs/manual/pricing-availability/
+permalink: /manual/pricing-availability/
 ---
 
 <div class="page-header">

@@ -3,7 +3,7 @@ layout: manual
 title: "AI Features"
 description: "AI-assisted translation, metadata drafting, review replies, and architecture planning — all human-in-the-loop."
 breadcrumb: true
-permalink: /mainline_docs/manual/ai-features/
+permalink: /manual/ai-features/
 ---
 
 <div class="page-header">

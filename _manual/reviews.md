@@ -3,7 +3,7 @@ layout: manual
 title: "Reviews"
 description: "Read App Store customer reviews and reply from Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/reviews/
+permalink: /manual/reviews/
 ---
 
 <div class="page-header">

@@ -3,7 +3,7 @@ layout: manual
 title: "App Listings"
 description: "Edit your app's name, subtitle, description, keywords, promotional text, and What's New notes across every locale."
 breadcrumb: true
-permalink: /mainline_docs/manual/listings/
+permalink: /manual/listings/
 ---
 
 <div class="page-header">

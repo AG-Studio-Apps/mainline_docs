@@ -3,7 +3,7 @@ layout: manual
 title: "CI Runs"
 description: "Trigger GitHub Actions workflows and monitor live run logs from Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/ci-runs/
+permalink: /manual/ci-runs/
 ---
 
 <div class="page-header">

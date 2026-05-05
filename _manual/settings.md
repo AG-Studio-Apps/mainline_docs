@@ -3,7 +3,7 @@ layout: manual
 title: "Settings"
 description: "Auto-sync, cert repo management, AI provider configuration, and plan management in Mainline."
 breadcrumb: true
-permalink: /mainline_docs/manual/settings/
+permalink: /manual/settings/
 ---
 
 <div class="page-header">

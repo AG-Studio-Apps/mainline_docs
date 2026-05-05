@@ -3,7 +3,7 @@ layout: manual
 title: "Cert Repo & Match Repo"
 description: "How Mainline stores and accesses your code-signing certificates and provisioning profiles in an encrypted GitHub repo."
 breadcrumb: true
-permalink: /mainline_docs/manual/cert-repo/
+permalink: /manual/cert-repo/
 ---
 
 <div class="page-header">

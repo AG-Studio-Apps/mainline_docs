@@ -3,7 +3,7 @@ layout: manual
 title: "Screenshots & Previews"
 description: "Manage App Store screenshots and preview videos using Mainline's project-based renderer."
 breadcrumb: true
-permalink: /mainline_docs/manual/screenshots/
+permalink: /manual/screenshots/
 ---
 
 <div class="page-header">

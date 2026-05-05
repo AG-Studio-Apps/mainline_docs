@@ -3,7 +3,7 @@ layout: manual
 title: "Certificates & Profiles"
 description: "Renew distribution certificates, regenerate provisioning profiles, and sync signing assets to your device Keychain."
 breadcrumb: true
-permalink: /mainline_docs/manual/certs-profiles/
+permalink: /manual/certs-profiles/
 ---
 
 <div class="page-header">
