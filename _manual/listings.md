@@ -79,7 +79,7 @@ After saving a field in one locale, Mainline offers a **Translate to other local
 
 Tap the **Draft with AI** button (shown on description and What's New fields) to generate a draft from a brief prompt or your existing app context. The drafted text appears in the editor for you to review and edit before saving.
 
-See [AI Features]({{ '/mainline_docs/manual/ai-features/' | relative_url }}) for more detail on how AI drafting works.
+See [AI Features]({{ '/manual/ai-features/' | relative_url }}) for more detail on how AI drafting works.
 
 ---
 

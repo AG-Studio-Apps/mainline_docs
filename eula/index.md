@@ -112,7 +112,7 @@ The App integrates with third-party services and APIs. All trademarks, service m
 
 ## 5. Privacy
 
-Your use of the App is also governed by our [Privacy Policy]({{ '/mainline_docs/privacy/' | relative_url }}), which is incorporated into this Agreement by reference. Please read it carefully.
+Your use of the App is also governed by our [Privacy Policy]({{ '/privacy/' | relative_url }}), which is incorporated into this Agreement by reference. Please read it carefully.
 
 ---
 
@@ -124,7 +124,7 @@ The App includes optional AI-assisted features that integrate large language mod
 
 - All AI-generated content is presented to you for review before any content is submitted to App Store Connect. The App does not automatically write AI-generated content to ASC without your explicit approval.
 - You are solely responsible for reviewing AI-generated content and for any content you choose to publish based on AI suggestions.
-- By using AI features, your content (such as app descriptions, metadata, and review replies) is sent to the AI provider you have selected using your own API key. This traffic goes directly from your device to the provider — we do not see or process this content. The provider's privacy policy applies to their handling of this data (see links in the [Privacy Policy]({{ '/mainline_docs/privacy/' | relative_url }})).
+- By using AI features, your content (such as app descriptions, metadata, and review replies) is sent to the AI provider you have selected using your own API key. This traffic goes directly from your device to the provider — we do not see or process this content. The provider's privacy policy applies to their handling of this data (see links in the [Privacy Policy]({{ '/privacy/' | relative_url }})).
 - AI models may produce inaccurate, incomplete, or inappropriate outputs. Always review AI suggestions before applying them.
 
 ---

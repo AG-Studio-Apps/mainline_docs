@@ -31,7 +31,7 @@ This applies to:
 | **Anthropic** | Claude (model selection in Settings) |
 | **OpenAI** | GPT-4 and later (model selection in Settings) |
 
-You connect your own API key — Mainline sends requests directly from your device to the provider. AG Studio Apps never sees your content or your API keys. See the [Privacy Policy]({{ '/mainline_docs/privacy/' | relative_url }}) for details.
+You connect your own API key — Mainline sends requests directly from your device to the provider. AG Studio Apps never sees your content or your API keys. See the [Privacy Policy]({{ '/privacy/' | relative_url }}) for details.
 
 ---
 

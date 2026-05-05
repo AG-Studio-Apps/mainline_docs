@@ -82,7 +82,7 @@ Tap **Territory Pricing** on any product to override the pricing tier for indivi
   <div class="callout__body">
     <div class="callout__title">Setting up territory pricing for subscriptions</div>
     <p>
-      For subscriptions, territory pricing requires that the subscription's availability be confirmed first. If Mainline shows an error when you try to set territory pricing, check that the subscription is available in the relevant territory via <a href="{{ '/mainline_docs/manual/pricing-availability/' | relative_url }}">Pricing &amp; Availability</a>.
+      For subscriptions, territory pricing requires that the subscription's availability be confirmed first. If Mainline shows an error when you try to set territory pricing, check that the subscription is available in the relevant territory via <a href="{{ '/manual/pricing-availability/' | relative_url }}">Pricing &amp; Availability</a>.
     </p>
   </div>
 </div>

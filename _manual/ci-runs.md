@@ -21,7 +21,7 @@ permalink: /manual/ci-runs/
 
 ## Requirements
 
-CI features require a connected GitHub Personal Access Token with `repo` and `workflow` scopes. See [Onboarding — Step 2]({{ '/mainline_docs/onboarding/' | relative_url }}#step-2--connect-github-optional) for setup.
+CI features require a connected GitHub Personal Access Token with `repo` and `workflow` scopes. See [Onboarding — Step 2]({{ '/onboarding/' | relative_url }}#step-2--connect-github-optional) for setup.
 
 The app's repository must be set in the App Detail view (a "Connect GitHub" row appears if it isn't).
 

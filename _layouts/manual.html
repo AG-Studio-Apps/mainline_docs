@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }} Manual</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ '/mainline_docs/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% seo %}
 </head>
 <body>
@@ -16,9 +16,9 @@
       <article class="prose">
         {% if page.breadcrumb %}
         <nav class="breadcrumbs" aria-label="Breadcrumb">
-          <a href="{{ '/mainline_docs/' | relative_url }}">Home</a>
+          <a href="{{ '/' | relative_url }}">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <a href="{{ '/mainline_docs/manual/' | relative_url }}">User Manual</a>
+          <a href="{{ '/manual/' | relative_url }}">User Manual</a>
           <span class="sep" aria-hidden="true">/</span>
           <span>{{ page.title }}</span>
         </nav>

@@ -206,10 +206,10 @@ Once App Store Connect is connected, tap **Continue to Dashboard**. You'll see a
 
 From here, explore the features you need most:
 
-- **[App Listings]({{ '/mainline_docs/manual/listings/' | relative_url }})** — edit metadata per locale
-- **[TestFlight Builds]({{ '/mainline_docs/manual/testflight/' | relative_url }})** — view and manage builds
-- **[Submission]({{ '/mainline_docs/manual/submission/' | relative_url }})** — submit for review
-- **[In-App Purchases]({{ '/mainline_docs/manual/iap-subscriptions/' | relative_url }})** — manage products and subscriptions
+- **[App Listings]({{ '/manual/listings/' | relative_url }})** — edit metadata per locale
+- **[TestFlight Builds]({{ '/manual/testflight/' | relative_url }})** — view and manage builds
+- **[Submission]({{ '/manual/submission/' | relative_url }})** — submit for review
+- **[In-App Purchases]({{ '/manual/iap-subscriptions/' | relative_url }})** — manage products and subscriptions
 
 ---
 

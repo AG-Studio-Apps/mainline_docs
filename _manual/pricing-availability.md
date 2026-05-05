@@ -27,7 +27,7 @@ If you want different pricing in specific countries, tap **Territory Overrides**
   <div class="callout__body">
     <div class="callout__title">Per-territory pricing for in-app purchases</div>
     <p>
-      Territory overrides for in-app purchases and subscriptions are managed separately from the app's base price. See <a href="{{ '/mainline_docs/manual/iap-subscriptions/' | relative_url }}">In-App Purchases &amp; Subscriptions</a>.
+      Territory overrides for in-app purchases and subscriptions are managed separately from the app's base price. See <a href="{{ '/manual/iap-subscriptions/' | relative_url }}">In-App Purchases &amp; Subscriptions</a>.
     </p>
   </div>
 </div>

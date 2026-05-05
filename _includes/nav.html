@@ -1,30 +1,30 @@
 <nav class="site-nav" aria-label="Main navigation">
   <div class="site-nav__inner">
-    <a class="site-nav__logo" href="{{ '/mainline_docs/' | relative_url }}">
+    <a class="site-nav__logo" href="{{ '/' | relative_url }}">
       <span class="logo-badge" aria-hidden="true">M</span>
       Mainline
     </a>
     <ul class="site-nav__links" role="list">
       <li>
-        <a href="{{ '/mainline_docs/onboarding/' | relative_url }}"
+        <a href="{{ '/onboarding/' | relative_url }}"
            {% if page.url contains '/onboarding' %}class="active"{% endif %}>
           Onboarding
         </a>
       </li>
       <li>
-        <a href="{{ '/mainline_docs/manual/' | relative_url }}"
+        <a href="{{ '/manual/' | relative_url }}"
            {% if page.url contains '/manual' %}class="active"{% endif %}>
           User Manual
         </a>
       </li>
       <li>
-        <a href="{{ '/mainline_docs/eula/' | relative_url }}"
+        <a href="{{ '/eula/' | relative_url }}"
            {% if page.url contains '/eula' %}class="active"{% endif %}>
           EULA
         </a>
       </li>
       <li>
-        <a href="{{ '/mainline_docs/privacy/' | relative_url }}"
+        <a href="{{ '/privacy/' | relative_url }}"
            {% if page.url contains '/privacy' %}class="active"{% endif %}>
           Privacy
         </a>

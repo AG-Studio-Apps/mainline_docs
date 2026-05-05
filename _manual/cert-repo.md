@@ -89,4 +89,4 @@ During onboarding (and available any time from the cert repo settings), Mainline
 - Mainline only reads from and writes to your cert repo using the GitHub PAT you provide — it never handles your credentials through any AG Studio Apps server.
 - Encryption and decryption happen entirely on-device. The passphrase never leaves your device.
 
-See the [Privacy Policy]({{ '/mainline_docs/privacy/' | relative_url }}) for full details on how credentials are handled.
+See the [Privacy Policy]({{ '/privacy/' | relative_url }}) for full details on how credentials are handled.
