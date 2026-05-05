@@ -12,7 +12,7 @@ plugins:
 nav_links:
   - title: Onboarding
     url: /onboarding/
-  - title: User Manual
+  - title: Manual
     url: /manual/
   - title: EULA
     url: /eula/
