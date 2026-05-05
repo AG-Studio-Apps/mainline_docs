@@ -20,7 +20,7 @@ description: "The End User Licence Agreement for Mainline, the iOS app for indie
   </div>
 </div>
 
-**Last updated:** <<YYYY-MM-DD>>
+**Last updated:** 2026-05-05
 
 This End User Licence Agreement ("Agreement") is a legal agreement between you ("User", "you") and **AG Studio Apps** ("we", "us", "our") for the use of **Mainline** (the "App"). By downloading, installing, or using the App, you agree to be bound by this Agreement. If you do not agree, do not download, install, or use the App.
 
@@ -208,4 +208,4 @@ If you are a consumer resident in a European Union member state, you may also ha
 
 ## 15. Contact
 
-For questions about this Agreement, contact us at: **<<contact-email>>**
+For questions about this Agreement, contact us at: **james@agnticstudio.com**

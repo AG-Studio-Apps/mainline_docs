@@ -20,7 +20,7 @@ description: "How Mainline handles your data — spoiler: we don't collect any."
   </div>
 </div>
 
-**Effective date:** <<YYYY-MM-DD>>
+**Effective date:** 2026-05-05
 
 This Privacy Policy describes how **AG Studio Apps** ("we", "us", "our") handles information in connection with your use of **Mainline** (the "App").
 
@@ -134,7 +134,7 @@ Depending on your location, you may have rights under applicable data protection
 - The right to data portability
 - The right to object to processing
 
-Because we do not collect or process personal data beyond the iCloud record described in Section 3 (which is in your own iCloud account), most of these rights are satisfied by the fact that your data stays with you. If you have a query or request relating to your data, contact us at **<<contact-email>>**.
+Because we do not collect or process personal data beyond the iCloud record described in Section 3 (which is in your own iCloud account), most of these rights are satisfied by the fact that your data stays with you. If you have a query or request relating to your data, contact us at **james@agnticstudio.com**.
 
 ---
 
@@ -152,4 +152,4 @@ We may update this Privacy Policy from time to time. Material changes will be co
 
 ## 12. Contact
 
-If you have questions about this Privacy Policy, contact us at: **<<contact-email>>**
+If you have questions about this Privacy Policy, contact us at: **james@agnticstudio.com**
