@@ -1,0 +1,95 @@
+<aside class="sidebar" aria-label="User Manual navigation">
+  <span class="sidebar__title">User Manual</span>
+  <ul role="list">
+    <li>
+      <a href="{{ '/mainline_docs/manual/' | relative_url }}"
+         {% if page.url == '/mainline_docs/manual/' %}class="active"{% endif %}>
+        Overview
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/dashboard/' | relative_url }}"
+         {% if page.url contains '/manual/dashboard' %}class="active"{% endif %}>
+        Dashboard
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/listings/' | relative_url }}"
+         {% if page.url contains '/manual/listings' %}class="active"{% endif %}>
+        App Listings
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/iap-subscriptions/' | relative_url }}"
+         {% if page.url contains '/manual/iap-subscriptions' %}class="active"{% endif %}>
+        In-App Purchases &amp; Subscriptions
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/pricing-availability/' | relative_url }}"
+         {% if page.url contains '/manual/pricing-availability' %}class="active"{% endif %}>
+        Pricing &amp; Availability
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/screenshots/' | relative_url }}"
+         {% if page.url contains '/manual/screenshots' %}class="active"{% endif %}>
+        Screenshots &amp; Previews
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/testflight/' | relative_url }}"
+         {% if page.url contains '/manual/testflight' %}class="active"{% endif %}>
+        TestFlight Builds
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/submission/' | relative_url }}"
+         {% if page.url contains '/manual/submission' %}class="active"{% endif %}>
+        Submission
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/reviews/' | relative_url }}"
+         {% if page.url contains '/manual/reviews' %}class="active"{% endif %}>
+        Reviews
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/ci-runs/' | relative_url }}"
+         {% if page.url contains '/manual/ci-runs' %}class="active"{% endif %}>
+        CI Runs
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/certs-profiles/' | relative_url }}"
+         {% if page.url contains '/manual/certs-profiles' %}class="active"{% endif %}>
+        Certificates &amp; Profiles
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/cert-repo/' | relative_url }}"
+         {% if page.url contains '/manual/cert-repo' %}class="active"{% endif %}>
+        Cert Repo &amp; Match Repo
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/secret-injection/' | relative_url }}"
+         {% if page.url contains '/manual/secret-injection' %}class="active"{% endif %}>
+        Secret Injection for CI
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/ai-features/' | relative_url }}"
+         {% if page.url contains '/manual/ai-features' %}class="active"{% endif %}>
+        AI Features
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/mainline_docs/manual/settings/' | relative_url }}"
+         {% if page.url contains '/manual/settings' %}class="active"{% endif %}>
+        Settings
+      </a>
+    </li>
+  </ul>
+</aside>

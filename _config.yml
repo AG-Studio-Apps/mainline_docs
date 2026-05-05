@@ -1,0 +1,46 @@
+title: "Mainline"
+description: "Manage your App Store Connect apps from your iPhone."
+baseurl: "/mainline_docs"
+url: "https://ag-studio-apps.github.io"
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+# Navigation
+nav_links:
+  - title: Onboarding
+    url: /mainline_docs/onboarding/
+  - title: User Manual
+    url: /mainline_docs/manual/
+  - title: EULA
+    url: /mainline_docs/eula/
+  - title: Privacy
+    url: /mainline_docs/privacy/
+
+# Collections
+collections:
+  manual:
+    output: true
+    permalink: /manual/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "_manual"
+      type: "manual"
+    values:
+      layout: "manual"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
