@@ -72,6 +72,16 @@ breadcrumb: false
     <span class="card-title">Secret Injection</span>
     <span class="card-desc">Write signing secrets to GitHub Actions for automated builds.</span>
   </a>
+  <a href="{{ '/manual/secrets-naming/' | relative_url }}">
+    <span class="card-icon">🏷️</span>
+    <span class="card-title">Secrets Naming</span>
+    <span class="card-desc">Default secret names + per-app schema mapping when your workflow uses different ones.</span>
+  </a>
+  <a href="{{ '/manual/workflow-files/' | relative_url }}">
+    <span class="card-icon">📄</span>
+    <span class="card-title">Workflow Files</span>
+    <span class="card-desc">What Mainline expects in your <code>.github/workflows/</code> YAML.</span>
+  </a>
   <a href="{{ '/manual/ai-features/' | relative_url }}">
     <span class="card-icon">✨</span>
     <span class="card-title">AI Features</span>
